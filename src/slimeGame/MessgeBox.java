@@ -1,6 +1,7 @@
-package project;
+package slimeGame;
 
 import static javax.swing.JOptionPane.*;
+
 public class MessgeBox {
 
     public static void main(String[] args) {

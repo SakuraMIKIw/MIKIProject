@@ -1,4 +1,4 @@
-package project;
+package slimeGame;
 
 import javax.swing.*;
 import java.awt.*;
