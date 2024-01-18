@@ -7,8 +7,8 @@ public class Button {
 
     public static void main(String[] args) {
 
-        javax.swing.UIManager.put("Button.font" ,
-        new java.awt.Font("굴림", Font.PLAIN, 14));
+        javax.swing.UIManager.put("Button.font" ,    //UI 관련 속성을 설정하기 위해 UIManager를 사용
+        new java.awt.Font("굴림", Font.PLAIN, 14)); //버튼의 폰트를 "굴림" 폰트로 설정하고 크기를 14로 지정
 
         JFrame frm = new JFrame("블루슬라임 퇴치하기"); //프레임 객체 생성
         FlowLayout layout = new FlowLayout(); // 레이아웃 객체 생성
